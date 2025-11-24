@@ -1,0 +1,8 @@
+# Environment variable
+.env
+
+# Virtual Environment
+myenv/
+
+#Compiled Python files
+__pycache__/

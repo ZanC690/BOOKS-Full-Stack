@@ -1,0 +1,148 @@
+body {
+  background-color: #e200442a
+}
+.book-management-system {
+    display: flex; 
+    gap: 20px;
+    align-items: flex-start;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: calc(100vh - 100px);
+    box-sizing: border-box;
+}
+
+.card { 
+  flex: 0 0 380px;
+  min-width: 300px;
+  max-width: 380px;
+  border: 2px solid #00d6b6;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 70vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+h3 {
+  margin: 0 0 15px 0;
+}
+
+.submit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+    overflow: auto;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px; 
+  font-weight: bold; 
+  text-align: left;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+
+}
+
+.form-add-edit {
+  display: flex;
+  gap: 10px;
+   margin-top: auto;
+}
+
+.button {
+  background-color: #777777;
+  flex: 1; 
+  padding: 10px;
+}
+
+.table-card {
+  flex: 1;
+  min-width: 700px;
+  max-width: 1200px;
+  border: 2px solid #00d6b6;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 70vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.table-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex: 1
+}
+
+table {
+  width: 100%; 
+  border-radius: 10px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: #00d6b6b7;
+  color: #ffffff;
+  z-index: 1;
+}
+
+th {
+  border-left: 1px solid #000000; 
+  padding: 8px; 
+  width: 35%;
+  border-radius: 6px;
+}
+
+.td-title {
+  border: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  padding: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+
+td {
+  border: 1px solid #ffffff; 
+  border-top: 1px solid #ffffff;
+  padding: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.td-published-year {
+  border: 1px solid #ffffff; 
+  border-top: 1px solid #ffffff; 
+  padding: 8px;
+  text-align: center; 
+}
+
+.edit-button {
+  background-color: #777777;
+  margin-right: 8px;
+  padding: 6px 12px;
+  min-width: 60px;
+}
+
+.delete-button {
+  background-color: #777777;
+  padding: 6px 12px;
+  min-width: 60px;
+}
